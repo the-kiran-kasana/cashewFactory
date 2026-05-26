@@ -1,0 +1,128 @@
+export const menuItems = [
+  {
+    key: "Stock",
+    title: "Stock",
+    description: "Manage raw nuts, inventory stock and warehouses.",
+    href: "/dashboard/store",
+    palette: {
+      cardBg: "bg-emerald-50/70",
+      cardBorder: "border-emerald-100",
+      iconBg: "bg-emerald-100",
+      iconText: "text-emerald-600",
+      arrowBg: "bg-emerald-100",
+      arrowText: "text-emerald-600",
+    },
+    icon: "store",
+  },
+
+  {
+      key: "production",
+      title: "Production Store",
+      description: "Track production, processing and finished goods.",
+      href: "/dashboard/production",
+      palette: {
+        cardBg: "bg-sky-50/70",
+        cardBorder: "border-sky-100",
+        iconBg: "bg-sky-100",
+        iconText: "text-sky-600",
+        arrowBg: "bg-sky-100",
+        arrowText: "text-sky-600",
+      },
+      icon: "factory",
+    },
+    {
+        key: "finished-goods",
+        title: "Finished Goods",
+        description: "Track packaged products ready for dispatch.",
+        href: "/dashboard/finishing-goods",
+        palette: {
+          cardBg: "bg-teal-50/70",
+          cardBorder: "border-teal-100",
+          iconBg: "bg-teal-100",
+          iconText: "text-teal-600",
+          arrowBg: "bg-teal-100",
+          arrowText: "text-teal-600",
+        },
+        icon: "package",
+      },
+
+  {
+    key: "purchase-order",
+    title: "Purchase Management",
+    description: "Create & manage purchase orders and records.",
+    href: "/dashboard/purchage-order",
+    palette: {
+      cardBg: "bg-orange-50/70",
+      cardBorder: "border-orange-100",
+      iconBg: "bg-orange-100",
+      iconText: "text-orange-500",
+      arrowBg: "bg-orange-100",
+      arrowText: "text-orange-500",
+    },
+    icon: "cart",
+  },
+
+
+
+  {
+    key: "out-for-delivery",
+    title: "Out for Delivery",
+    description: "Monitor shipments currently in transit.",
+    href: "/dashboard/out-for-delivery",
+    palette: {
+      cardBg: "bg-indigo-50/70",
+      cardBorder: "border-indigo-100",
+      iconBg: "bg-indigo-100",
+      iconText: "text-indigo-600",
+      arrowBg: "bg-indigo-100",
+      arrowText: "text-indigo-600",
+    },
+    icon: "truck",
+  },
+
+  {
+    key: "vendor",
+    title: "Vendor",
+    description: "Manage vendors, suppliers and their details.",
+    href: "/dashboard/vendors",
+    palette: {
+      cardBg: "bg-violet-50/70",
+      cardBorder: "border-violet-100",
+      iconBg: "bg-violet-100",
+      iconText: "text-violet-600",
+      arrowBg: "bg-violet-100",
+      arrowText: "text-violet-600",
+    },
+    icon: "vendor",
+  },
+  {
+    key: "user",
+    title: "User",
+    description: "Manage staff accounts, roles and access.",
+    href: "/dashboard/users",
+    palette: {
+      cardBg: "bg-rose-50/70",
+      cardBorder: "border-rose-100",
+      iconBg: "bg-rose-100",
+      iconText: "text-rose-500",
+      arrowBg: "bg-rose-100",
+      arrowText: "text-rose-500",
+    },
+    icon: "user",
+  },
+  {
+    key: "settings",
+    title: "Settings",
+    description: "Configure preferences, users and system settings.",
+    href: "/dashboard/setting",
+    palette: {
+      cardBg: "bg-amber-50/70",
+      cardBorder: "border-amber-100",
+      iconBg: "bg-amber-100",
+      iconText: "text-amber-600",
+      arrowBg: "bg-amber-100",
+      arrowText: "text-amber-600",
+    },
+    icon: "settings",
+  },
+];
