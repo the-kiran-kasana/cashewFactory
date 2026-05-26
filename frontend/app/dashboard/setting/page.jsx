@@ -1,5 +1,5 @@
-import setting from "../../../components/ui/setting";
+import Setting from "../../../components/ui/setting";
 
 export default function SettingPage() {
-  return <setting title="Settings" />;
+  return <Setting title="Settings" />;
 }
