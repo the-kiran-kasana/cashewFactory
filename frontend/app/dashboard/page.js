@@ -1,17 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import TopBar from "../../components/navbar/TopBar";
-import MenuGrid from "../../components/cards/MenuGrid";
-import { InventoryProvider } from "../../components/inventory/InventoryContext";
-import Stock from "../../components/ui/Stock";
-import Vendor from "../../components/ui/vendor";
-import PurchaseManagement from "../../components/ui/purchase_management";
-import ProductionStore from "../../components/ui/Production_Store";
-import FinishingGood from "../../components/ui/Finishing_good";
-import OrderOfDelivery from "../../components/ui/Order_of_delivery";
-import setting from "../../components/ui/setting";
-import user from "../../components/ui/user";
+import TopBar from "../components/navbar/TopBar";
+import MenuGrid from "../components/cards/MenuGrid";
+import { InventoryProvider } from "../components/inventory/InventoryContext";
+import Stock from "../components/ui/Stock";
+import Vendor from "../components/ui/vendor";
+import PurchaseManagement from "../components/ui/purchase_management";
+import ProductionStore from "../components/ui/Production_Store";
+import FinishingGood from "../components/ui/Finishing_good";
+import OrderOfDelivery from "../components/ui/Order_of_delivery";
+import Setting from "../components/ui/setting";
+import User from "../components/ui/user";
 
 const SECTIONS = {
   Stock: { title: "Stock", Component: Stock },
@@ -20,8 +20,8 @@ const SECTIONS = {
   "purchase-order": { title: "Purchase Management", Component: PurchaseManagement },
   "out-for-delivery": { title: "Out for Delivery", Component: OrderOfDelivery },
   vendor: { title: "Vendors", Component: Vendor },
-  user: { title: "User", Component: user },
-  settings: { title: "Settings", Component: setting },
+  user: { title: "User", Component: User },
+  settings: { title: "Settings", Component: Setting },
 };
 
 export default function DashboardPage() {
