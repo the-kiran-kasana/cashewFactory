@@ -1,9 +1,12 @@
-import { InventoryProvider } from "../../components/inventory/InventoryContext";
+import { InventoryProvider } from "../components/inventory/InventoryContext";
+import AuthGuard from "../components/auth/AuthGuard";
 
-// Wraps every /dashboard/* route in the InventoryProvider so any page (current
-// or future) can call useInventory() safely — including during the build-time
-// prerender pass. Without this, individual routes throw
-// "useInventory must be used inside InventoryProvider".
+// Wraps every /dashboard/* route in AuthGuard (redirects to /login if not
+// authenticated) and InventoryProvider so any page can call useInventory().
 export default function DashboardLayout({ children }) {
-  return <InventoryProvider>{children}</InventoryProvider>;
+  return (
+    <AuthGuard>
+      <InventoryProvider>{children}</InventoryProvider>
+    </AuthGuard>
+  );
 }

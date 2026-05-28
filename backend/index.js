@@ -4,6 +4,7 @@ const connectDB = require('./config/db');
 const cors = require('cors');
 const stockRoutes = require('./routes/stockRoutes');
 const productionRoutes = require('./routes/productionRoutes');
+const authRoutes = require('./routes/authRoutes');
 
 dotenv.config();
 connectDB();
@@ -12,6 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 app.use(express.json());
 app.use(cors({ origin: '*' }));
+app.use('/api/auth', authRoutes);
 app.use('/api/stock', stockRoutes);
 app.use('/api/production', productionRoutes);
 

@@ -279,21 +279,6 @@ export default function FinishingGood({ title = "Finished Goods", onBack }) {
                 Move to Finished
               </button>
             </div>
-
-            <style jsx>{`
-              .form-input {
-                width: 100%;
-                border-radius: 0.5rem;
-                border: 1px solid rgb(203 213 225);
-                background: white;
-                padding: 0.5rem 0.75rem;
-                font-size: 0.875rem;
-                outline: none;
-              }
-              .form-input:focus {
-                border-color: rgb(100 116 139);
-              }
-            `}</style>
           </form>
         )}
 
@@ -384,21 +369,6 @@ export default function FinishingGood({ title = "Finished Goods", onBack }) {
                 Dispatch → Out for Delivery
               </button>
             </div>
-
-            <style jsx>{`
-              .form-input {
-                width: 100%;
-                border-radius: 0.5rem;
-                border: 1px solid rgb(203 213 225);
-                background: white;
-                padding: 0.5rem 0.75rem;
-                font-size: 0.875rem;
-                outline: none;
-              }
-              .form-input:focus {
-                border-color: rgb(14 165 233);
-              }
-            `}</style>
           </form>
         )}
 
@@ -513,7 +483,7 @@ function BackLink({ onBack }) {
     );
   }
   return (
-    <Link href="/dashboard" className={classes}>
+    <Link href="/admin-dashboard" className={classes}>
       ← Back to dashboard
     </Link>
   );

@@ -3,7 +3,7 @@ export const menuItems = [
     key: "Stock",
     title: "Stock",
     description: "Manage raw nuts, inventory stock and warehouses.",
-    href: "/dashboard/store",
+    href: "/admin-dashboard/store",
     palette: {
       cardBg: "bg-emerald-50/70",
       cardBorder: "border-emerald-100",
@@ -19,7 +19,7 @@ export const menuItems = [
       key: "production",
       title: "Production Store",
       description: "Track production, processing and finished goods.",
-      href: "/dashboard/production",
+      href: "/admin-dashboard/production",
       palette: {
         cardBg: "bg-sky-50/70",
         cardBorder: "border-sky-100",
@@ -34,7 +34,7 @@ export const menuItems = [
         key: "finished-goods",
         title: "Finished Goods",
         description: "Track packaged products ready for dispatch.",
-        href: "/dashboard/finishing-goods",
+        href: "/admin-dashboard/finishing-goods",
         palette: {
           cardBg: "bg-teal-50/70",
           cardBorder: "border-teal-100",
@@ -50,7 +50,7 @@ export const menuItems = [
     key: "purchase-order",
     title: "Purchase Management",
     description: "Create & manage purchase orders and records.",
-    href: "/dashboard/purchage-order",
+    href: "/admin-dashboard/purchage-order",
     palette: {
       cardBg: "bg-orange-50/70",
       cardBorder: "border-orange-100",
@@ -68,7 +68,7 @@ export const menuItems = [
     key: "out-for-delivery",
     title: "Out for Delivery",
     description: "Monitor shipments currently in transit.",
-    href: "/dashboard/out-for-delivery",
+    href: "/admin-dashboard/out-for-delivery",
     palette: {
       cardBg: "bg-indigo-50/70",
       cardBorder: "border-indigo-100",
@@ -84,7 +84,7 @@ export const menuItems = [
     key: "vendor",
     title: "Vendor",
     description: "Manage vendors, suppliers and their details.",
-    href: "/dashboard/vendors",
+    href: "/admin-dashboard/vendors",
     palette: {
       cardBg: "bg-violet-50/70",
       cardBorder: "border-violet-100",
@@ -99,7 +99,7 @@ export const menuItems = [
     key: "user",
     title: "User",
     description: "Manage staff accounts, roles and access.",
-    href: "/dashboard/users",
+    href: "/admin-dashboard/users",
     palette: {
       cardBg: "bg-rose-50/70",
       cardBorder: "border-rose-100",
@@ -114,7 +114,7 @@ export const menuItems = [
     key: "settings",
     title: "Settings",
     description: "Configure preferences, users and system settings.",
-    href: "/dashboard/setting",
+    href: "/admin-dashboard/setting",
     palette: {
       cardBg: "bg-amber-50/70",
       cardBorder: "border-amber-100",
