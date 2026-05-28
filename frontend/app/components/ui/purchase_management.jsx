@@ -524,21 +524,6 @@ export default function PurchaseManagement({ onBack }) {
                 </button>
               )}
             </div>
-
-            <style jsx>{`
-              .form-input {
-                width: 100%;
-                border-radius: 0.5rem;
-                border: 1px solid rgb(203 213 225);
-                background: white;
-                padding: 0.5rem 0.75rem;
-                font-size: 0.875rem;
-                outline: none;
-              }
-              .form-input:focus {
-                border-color: rgb(100 116 139);
-              }
-            `}</style>
           </form>
         )}
 
@@ -671,7 +656,7 @@ function BackLink({ onBack }) {
     );
   }
   return (
-    <Link href="/dashboard" className={classes}>
+    <Link href="/admin-dashboard" className={classes}>
       ← Back to dashboard
     </Link>
   );
