@@ -16,11 +16,11 @@ const User = require('./models/User');
 dotenv.config();
 
 // ─── Default seed data ───────────────────────────────────────────────────────
-admin@cashive.com
+
 const SEED_USERS = [
   {
     name: 'Super Admin',
-    email: '',
+    email: 'admin@cashive.com',
     password: 'Admin@1234',
     role: 'admin',
     isActive: true,
